@@ -19,6 +19,11 @@ public class Post {
     private boolean markedAsAds;
     private boolean inFavourites;
     private int postponedId;
+    private String domain;
+    private String query;
+    private boolean ownersOnly;
+    private int count;
+    private int offset;
 
     private Likes likes;
     private Comments comments;
